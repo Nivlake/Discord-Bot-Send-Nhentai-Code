@@ -5,7 +5,7 @@ app = Flask('')
 
 @app.route('/')
 def home():
-    return "BABU-CHAN ONLINE UwU"
+    return "BOT ONLINE"
 
 def run():
   app.run(host='0.0.0.0',port=8080)
